@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T14:05:17.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.6" etag="cWVdC_Vl5IsKwLIQujA4" type="github"><diagram id="SjOTWhYECfcxPznW7CkI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-10T14:48:57.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="jUwDGUWvCGkpTVDDEwr0" version="14.4.6" type="github">
+  <diagram id="SjOTWhYECfcxPznW7CkI" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-1" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: roboto, arial, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Crie um fluxograma para um algoritmo do jogo “pedra papel tesoura” que deve receber as jogadas dos dois jogadores e exibir o resultado.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-2" target="Tmk36jpp7rqV6zVWIGjR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-2" target="Tmk36jpp7rqV6zVWIGjR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-2" value="INICIO&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-3" value="PROCESSAMENTO&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-4" value="J1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-5" target="Tmk36jpp7rqV6zVWIGjR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-20" value="ENTÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tmk36jpp7rqV6zVWIGjR-19">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-21" value="SENÃO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-5" value="SE (J1=PAPEL E J2= PEDRA) OU (J1=PEDRA J2=TESOURA) OU (J1=TESOURA E J1=PAPEL)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-6" value="J1 GANHOU!" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-11" value="J2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-26" value="OUTRO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tmk36jpp7rqV6zVWIGjR-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-22" value="SE (J2=PAPEL E J1= PEDRA) OU (J2=PEDRA J1=TESOURA) OU (J2=TESOURA E J1=PAPEL)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="620" as="sourcePoint" />
+            <mxPoint x="610" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-24" value="ENTÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tmk36jpp7rqV6zVWIGjR-23">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-25" value="J2 GANHOU!" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tmk36jpp7rqV6zVWIGjR-27" value="EMPATE" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
